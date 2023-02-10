@@ -33,3 +33,17 @@ body {
     height: 65px;
     font-size: 18px;
 }
+.key:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.key-1 {
+    font-family: 'Inter', sans-serif;
+    color:  #60C1B6;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    width: 65px;
+    height: 65px;
+    font-size: 18px;
+}
