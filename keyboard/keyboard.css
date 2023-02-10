@@ -23,9 +23,10 @@ body {
     gap: 12px;
     margin-bottom: 12px;
 }
+
 .key {
     font-family: 'Inter', sans-serif;
-    color:  #60C1B6;
+    color: #60C1B6;
     background-color: #ffffff;
     border: none;
     border-radius: 16px;
@@ -33,17 +34,42 @@ body {
     height: 65px;
     font-size: 18px;
 }
-.key:hover{
+
+.key:hover {
     background-color: yellow;
+    color: black;
     cursor: pointer;
 }
-.key-1 {
+
+.utility {
+    flex: auto;
+    color: #868888;
+}
+
+.jiggle {
     font-family: 'Inter', sans-serif;
-    color:  #60C1B6;
+    color: #60C1B6;
     background-color: #ffffff;
     border: none;
     border-radius: 16px;
     width: 65px;
     height: 65px;
     font-size: 18px;
+    animation: jiggle 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(-4deg)
+    }
+
+    33% {
+        transform: rotate(4deg)
+    }
+
+    66% {
+        transform: rotate(-4deg)
+    }
+
 }
