@@ -14,14 +14,15 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 0px 47.1547px rgba(148, 146, 120, 0.23);
     border-radius: 20px;
-    height: 450px;
+    height: 700px;
     width: 765px;
     padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .first-block {
     padding-bottom: 35px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #DEDEDE;
     margin-bottom: 35px;
 }
 
@@ -89,12 +90,65 @@ input[type='text'] {
     background: url(./dollar.svg) left 15px no-repeat;
     padding-left: 40px;
 }
-.number-of-people input[type='text']  {
+
+.number-of-people input[type='text'] {
     background: url(./people.svg) left 15px no-repeat;
     padding: 40px;
     text-align: right;
 }
+
 .biil-amount .ba,
 .number-of-people .np {
     text-align: center;
+}
+
+.selecting-amount {
+    display: flex;
+    justify-content: space-between;
+    background: #EEEEEE;
+    padding: 20px 35px;
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+input[type='radio']+label {
+    background: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: #60C1B6;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type='radio']:checked+label {
+    background: #60C1B6;
+    color: white;
+}
+
+.calculate {
+    text-align: right;
+    padding: 30px 35px;
+    background:  #F7F7F7;
+}
+
+button {
+    background: #ED7861;
+    color: white;
+    border: none;
+    padding: 20px 100px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    font-family: 'Roboto Mono', sans-serif;
+    cursor: pointer;
+    font-size: 1.5rem;
 }
