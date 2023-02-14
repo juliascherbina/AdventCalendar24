@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Oswald&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #E9F5FA;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 126px;
+    margin: 10px;
+    gap: 24px;
+    width: 1300px;
+    height: 700px;
+}
+
+.date {
+    color: #4DB0D3;
+    width: 167px;
+    height: 150px;
+    padding: 24px 2px 14px 0.09px;
+    font-family: 'Krona One', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+
+.bar {
+    height: 525px;
+    width: 260px;
+}
+
+.bar.cloudy {
+    background: #4DB0D3;
+
+}
+
+.bar.sunny {
+    background: #E6DF95;
+}
+
+.bar.stormy {
+    background: #0E2E3A;
+}
+
+.bar.snowy {
+    background: #BCE1EF;
+}
+
+.bar.partly-cloudy {
+    background: #2B8BAD;
+}
+
+.bar.rainy {
+    background: #4DB0D3;
+}
