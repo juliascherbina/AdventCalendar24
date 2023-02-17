@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #E3E9F9;
+}
+
+.wrapper {
+    width: 785px;
+    height: 562px;
+    background: #FFFFFF;
+    box-shadow: 0px 31.4066px 60.0822px #CAD0E0;
+    border-radius: 13px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+    padding: 90px 100px 16px;
+    margin: 0;
+    color: #6778E8;
+}
+
+p {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    color: #737580;
+    margin-bottom: 60px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 533px;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+
+input[type='text'] {
+    width: 111px;
+    height: 116px;
+    background: #F0F3FA;
+    box-shadow: inset 0px 0px 5.46202px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    border: none;
+
+}
+
+input[value] {
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    text-align: center;
+    font-size: 80px;
+    color: #6778E8;
+
+}
+
+button {
+    width: 693px;
+    height: 102px;
+    text-align: center;
+    border: none;
+    background: linear-gradient(93.32deg, #8D9EFF -10.93%, #A674FB 113.82%);
+    border-radius: 13px;
+    margin-left: 42px;
+    color: #FFFFFF;
+    font-size:27px;
+    font-weight: 900;
+    letter-spacing: 0.11em;
+}
