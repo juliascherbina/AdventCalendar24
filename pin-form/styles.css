@@ -42,23 +42,17 @@ p {
 form {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-width: 533px;
     gap: 20px;
-    padding-bottom: 60px;
+    margin-bottom: 40px;
 }
 
-input[type='text'] {
+input[type=text] {
     width: 111px;
     height: 116px;
     background: #F0F3FA;
     box-shadow: inset 0px 0px 5.46202px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     border: none;
-
-}
-
-input[value] {
     font-family: 'Source Sans Pro';
     font-weight: 900;
     text-align: center;
