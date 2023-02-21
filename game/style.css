@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Roboto+Monos');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 body {
     padding: 0;
@@ -52,4 +52,37 @@ li.pick-one button:hover {
 li.pick-one img {
     max-width: 250px;
     max-height: 250px;
+}
+
+body.winner.computer-wins .wrapper{
+    display: flex;
+    justify-content: center;
+}
+.play-again {
+margin: 0;
+padding: 0;
+position: absolute;
+bottom: 100px;
+border: 2.67511px solid #000000;
+background: white;
+width: 350px;
+height: 65px;
+font-size: 30px;
+font-weight: bold;
+}
+.play-again:hover {
+    background: rgba(73,155,234,1);
+
+}
+.your-pick img {
+    margin-right: 300px;
+    width: 473px;
+}
+.computer-pick img {
+    margin-left: 100px;
+    transform: scaleX(-1);
+    width: 673px;
+}
+.your-win, .computer-win {
+    visibility: hidden;
 }
